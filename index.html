@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/52e4715a76.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="img/logo.png" class="logo" height="100px" width="10%">
+            <ul>
+                <li><a href="#"><i class="fas fa-home" style="color: #ffffff;"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-user" style="color: #ffffff;"></i> About</a></li>
+                <li><a href="#"><i class="fas fa-user-cog" style="color: #ffffff;"></i> Service</a></li>
+                <li><a href="#"><i class="fas fa-id-badge" style="color: #ffffff;"></i> Portfolio</a></li>
+                <li><a href="#"><i class="fas fa-phone fa-flip-horizontal" style="color: #ffffff;"></i> Contact</a></li>
+                
+            </ul>
+            
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Gabb</span><br> Willard T. De Leon</h1>
+            <div class="wrapper">
+                <div class="static-txt">And I'm a</div>
+                    <ul class="dynamic-txt">
+                        <li><span>Developer</span></li>
+                        <li><span>Photographer</span></li>
+                        <li><span>Editor</span></li>
+                        <li><span>Gamer</span></li>
+                        
+                    </ul>
+                    
+                </div>    
+            </div>
+        </div>
+    </div>
+   <!--About Section---> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="img/user2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet. Sit provident laboriosam et adipisci amet et quia omnis non placeat impedit eos consequatur fugiat a numquam consequatur. Eum adipisci odio eos beatae quibusdam ut modi amet? Aut praesentium dignissimos hic aspernatur ullam qui voluptatem architecto et laudantium debitis sed voluptatem enim.
+
+                        Eos magnam nihil id voluptas omnis aut doloremque aliquam et consectetur molestiae est debitis pariatur. Aut voluptates quia nam fugit sunt non perspiciatis accusamus qui exercitationem fuga qui earum voluptatem.
+                        
+                        Hic voluptatem ullam ut odit saepe sit voluptas voluptatum qui enim asperiores est distinctio officiis. Sit ullam atque in rerum cupiditate ea laudantium tenetur ab pariatur laborum est quia numquam sed consequuntur neque. Ea veritatis quibusdam sed itaque enim eum accusantium facilis et neque enim ex expedita officia et impedit voluptas.</p>
+                    <div class="tab-title">
+                        <h1 class="tab-links active-link" onclick="openTab('skills')">Skill</h1>
+                        <h1 class="tab-links" onclick="openTab('experience')">Experience</h1>
+                        <h1 class="tab-links" onclick="openTab('education')">Education</h1>
+                    </div>    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Developer</span><br>Website Developer</li>
+                            <li><span>Technical Skills</span><br>Hardware and Software Repair</li>
+                            <li><span>Editor</span><br>Editing Photos and Videos</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>TESDA NCII</li>
+                            <li><span>February 2023-March 2023</span><br>On the Job Training(240hours)</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br>National University of Dasmarinas</li>
+                            <li><span>2021-2023</span><br>Olivarez College Tagaytay (Senior High School)</li>
+                            <li><span>2017-2021</span><br>Francisco P. Tolentino Integrated High School</li>
+                            <li><span>2012-2017</span><br>Karl Naomi Christian Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------SERVICES-------------->
+<div id="services">
+    <div class="services">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web  Development</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ipsum vero voluptatem eius? Saepe magnam pariatur velit obcaecati, eveniet molestiae fugiat consequuntur ipsa minus facere, nobis sint excepturi, dolore maxime!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-gamepad"></i>
+                <h2>Gaming</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ipsum vero voluptatem eius? Saepe magnam pariatur velit obcaecati, eveniet molestiae fugiat consequuntur ipsa minus facere, nobis sint excepturi, dolore maxime!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-tools"></i>
+                <h2>Hardware And Software Repair</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ipsum vero voluptatem eius? Saepe magnam pariatur velit obcaecati, eveniet molestiae fugiat consequuntur ipsa minus facere, nobis sint excepturi, dolore maxime!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------Portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../img/sample.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus voluptatibus aperiam ullam est tempore mollitia, commodi veritatis vero nesciunt id enim magni, sapiente ducimus accusamus et quia fugit corporis.
+                    </p>
+                    <a href="#"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../img/sample.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus voluptatibus aperiam ullam est tempore mollitia, commodi veritatis vero nesciunt id enim magni, sapiente ducimus accusamus et quia fugit corporis.
+                    </p>
+                    <a href="#"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../img/sample.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus voluptatibus aperiam ullam est tempore mollitia, commodi veritatis vero nesciunt id enim magni, sapiente ducimus accusamus et quia fugit corporis.
+                    </p>
+                    <a href="#"><i class="fas fa-link"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------Contact------------>
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> gabbwillard22@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 09776246245</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/Gaboo022/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_gbb_dln?igsh=MWF1NmhueGhrbXFlMw=="><i class="fab fa-instagram"></i></a>
+            <a href="discordapp.com/users/915823119921459210"><i class="fab fa-discord"></i></i></a>
+            <a href="https://www.tiktok.com/@justgabb3?_t=8lgjnFCIVpg&_r=1"><i class="fab fa-tiktok"></i></i></i></a>
+        </div>
+        <a href="../img/CV.pdf" download class="btn btn2">Donwload CV</a>
+        </div>
+       
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Messgae"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 GWD <i class="fas fa-heart"></i> . All rights reserved</p>
+    </div>
+</div>     
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+function openTab(tabname) {
+  for (tablink of tablinks) {
+    tablink.classList.remove("active-link");
+  }
+  for (tabcontent of tabcontents) {
+    tabcontent.classList.remove("active-tab");
+  }
+
+  const selectedTabLink = document.querySelector(`.tab-links[href="#${tabname}"]`);
+  const selectedTabContent = document.getElementById(tabname);
+
+  if (selectedTabLink && selectedTabContent) {
+    selectedTabLink.classList.add("active-link");
+    selectedTabContent.classList.add("active-tab");
+  }
+
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab")
+}
+
+    </script>
+</body>
+</html>
